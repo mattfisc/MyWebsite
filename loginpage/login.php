@@ -73,33 +73,7 @@
             <!--SIGN UP BUTTON-->
             <button class="button"><a href="f_p2.php">Sign Up</a></button><br><br>
 
-            <!--ENTER PASSWORD-->
-            <div>
-                <table>
-                    <tr>
-                        <td><button onclick="addDigitToPassword(7)"> 7 </button></td>
-                        <td><button onclick="addDigitToPassword(8)"> 8 </button></td>
-                        <td><button onclick="addDigitToPassword(9)"> 9 </button></td>
-                    </tr>
-                    <tr>
-                        <td><button onclick="addDigitToPassword(4)"> 4 </button></td>
-                        <td><button onclick="addDigitToPassword(5)"> 5 </button></td>
-                        <td><button onclick="addDigitToPassword(6)"> 6 </button></td>
-                    </tr>
-                    <tr>
-                        <td><button onclick="addDigitToPassword(1)"> 1 </button></td>
-                        <td><button onclick="addDigitToPassword(2)"> 2 </button></td>
-                        <td><button onclick="addDigitToPassword(3)"> 3 </button></td>
-                    </tr>
-                    <tr>
-                        <td><button onclick="addDigitToPassword(0)">0 </button></td>
-                        <!--DELETE BUTTON-->
-                        <td><button onclick="deleteOneDigit()">Delete</button></td>
-                        <!--CLEAR BUTTON-->
-                        <td><button onclick="clearPassword()">Clear</button></td>
-                    </tr>
-                </table>
-            </div> 
+            </div>
         </div>
     </div>
         
