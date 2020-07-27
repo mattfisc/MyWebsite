@@ -25,23 +25,23 @@ image[0].onload = function(){
                                 image[8].onload = function(){
                                     draw_game();
                                 };
-                                image[8].src = "/images/ass6p8.png";
+                                image[8].src = "image/ass6p8.png";
                             };
-                            image[7].src = "/images/ass6p7.png";
+                            image[7].src = "image/ass6p7.png";
                         };
-                        image[6].src = "/images/ass6p6.png";
+                        image[6].src = "image/ass6p6.png";
                     };
-                    image[5].src = "/images/ass6p5.png";
+                    image[5].src = "image/ass6p5.png";
                 };
-                image[4].src = "/images/ass6p4.png";
+                image[4].src = "image/ass6p4.png";
             };
-            image[3].src = "/images/ass6p3.png";
+            image[3].src = "image/ass6p3.png";
         };
-        image[2].src = "/images/ass6p2.png";
+        image[2].src = "image/ass6p2.png";
     };
-    image[1].src = "/images/ass6p1.png";
+    image[1].src = "image/ass6p1.png";
 };
-image[0].src = "/images/ass6p0.png";
+image[0].src = "image/ass6p0.png";
 
 function draw_image(index, position){
     context.drawImage(image[index],(position%3)*144,Math.floor(position/3)*144);
