@@ -5,37 +5,24 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Matthew Fischer</title>
-        <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+        <title>Matthew Fischer Project Portfolio</title>
+        <link rel="icon" type="image/x-icon" href="../img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="../css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top">Matthew Fischer</a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="blog.html">Blog</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="contact.html">Contact me</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#certificates">My Certificates</a></li>
 
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        <!-- Navigation-->
+        <?php
+            require "../includes/header.php"
+        ?>
+        
+
         <!-- Masthead-->
         <header class="masthead">
             <div class="container d-flex h-100 align-items-center">
@@ -46,7 +33,7 @@
 
                     <h2 class="text-white-50 mx-auto mt-2 mb-5">For more information check  the <a href="#about">about me</a> section.</h2>
 
-                    <h2 class="text-white-50 mx-auto mt-2 mb-5">Thanks for Visiting.  Check out <a href="#blog">my Blog</a> for weekly updates.</h2>
+                    <h2 class="text-white-50 mx-auto mt-2 mb-5">Thanks for Visiting.  Check out <a href="../blog/blog.php">my Blog</a> for weekly updates.</h2>
                     
                 </div>
             </div>
@@ -60,9 +47,14 @@
                         
                         <h6 class="text-white">My History</h6>
                         <p class="text-white-50 text-white">
-                            I have been working in Public Safety and as a Police Officer since 2011.  I have a wife and two children.  I have a Bachelors of Science degree in Criminal Justice from the Southern Utah University.  I decided to make a career change and started by going back to school.  I am graduating December 2020 with a second Bachelors in Computer Science from the University of Redlands.</p>
+                            I have been working in Public Safety and as a Police Officer since 2011.  I have a wife and two children.  
+                            I have a Bachelors of Science degree in Criminal Justice from the Southern Utah University.  
+                            I decided to make a career change and started by going back to school.  I am graduating December 2020 with a second 
+                            Bachelors in Computer Science from the University of Redlands.</p>
                         <p class="text-white-50 text-white">
-                            What started as a dream is about to become a reality.  I have been chasing a dream of Software Developing for several years.  I am about to graduate this fall and I can almost taste the end.  I have been studying Java for three years.  I started Python and Web development for the last year.</p>
+                            What started as a dream is about to become a reality.  I have been chasing a dream of Software Developing 
+                            for several years.  I am about to graduate this fall and I can almost taste the end.  I have been 
+                            studying Java for three years.  I started Python and Web development for the last year.</p>
                             
                     </div>
                 </div>
@@ -77,8 +69,10 @@
                     <div class="col-xl-8 col-lg-7"><img class="img-width mb-3 mb-lg-0" src="img/USflag.jpg" alt="" /></div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
-                            <h4>Login and Password</h4>
-                            <p class="text-black-50 mb-0">Using HTML, CSS, JavaScript, php, and MySQL.  I learned how to use POST request.  I also learned how to use GoDaddy and their database tables.<a class="btn btn-default" href="f_p1.php" role="button">View Details &raquo;</a></p>
+                            <h4>Senior Project</h4>
+                            <p class="text-black-50 mb-0">Using HTML, CSS, JavaScript, PHP, and MySQL.  I also learned how to 
+                                use GoDaddy and their database tables.<a class="btn btn-default" href="../seniorproject/home/home.php" 
+                                role="button">View Details &raquo;</a></p>
                         </div>
                     </div>
                 </div>
@@ -90,8 +84,12 @@
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
                                     <h4 class="text-white">TicTacToe Game</h4>
-                                    <p class="mb-0 text-white-50">Using Java, Swing, and object oriented programming.  I used objects to related to clicks on a game board.  I learned how to use Swing elements to create panels for controls and outputs.  You can see the project on GitHub repository: projects</p>
-                                    <a class="btn btn-default" href="https://github.com/mattfisc/Summer2020/tree/master/TicTacToeFullGame" role="button">View Details &raquo;</a>
+                                    <p class="mb-0 text-white-50">Using Java, Swing, and object oriented programming.  
+                                        I used objects to related to clicks on a game board.  I learned how to use Swing elements to 
+                                        create panels for controls and outputs.  You can see the project on GitHub repository: 
+                                        projects</p>
+                                    <a class="btn btn-default" href="https://github.com/mattfisc/Summer2020/tree/master/TicTacToeFullGame" 
+                                        role="button">View Details &raquo;</a>
                                     <hr class="d-none d-lg-block mb-0 ml-0" />
                                 </div>
                             </div>
@@ -106,7 +104,11 @@
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-right">
                                     <h4 class="text-white">Lexical Analyzer</h4>
-                                    <p class="mb-0 text-white-50">I used Java, classes and the relation of object oriented programming.  The program interprets input into tokens using recursion.  I did not make a compiler for it yet.  You can see the project on GitHub repository: projects</p><a class="btn btn-default" href="https://github.com/mattfisc/language/tree/master/TinyJavaApp" role="button">View Details &raquo;</a>
+                                    <p class="mb-0 text-white-50">I used Java, classes and the relation of object oriented programming.  
+                                        The program interprets input into tokens using recursion.  I did not make a compiler for it yet. 
+                                         You can see the project on GitHub repository: projects</p><a class="btn btn-default" 
+                                         href="https://github.com/mattfisc/language/tree/master/TinyJavaApp" 
+                                         role="button">View Details &raquo;</a>
                                     <hr class="d-none d-lg-block mb-0 mr-0" />
                                 </div>
                             </div>
@@ -122,7 +124,8 @@
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
                                     <h4 class="text-white">Tile Game</h4>
-                                    <p class="mb-0 text-white-50">I used HTML, CSS, and JavaScript.  I learned how to use Canvas.<a class="btn btn-default" href="tilegame.html" role="button">View Details &raquo;</a
+                                    <p class="mb-0 text-white-50">I used HTML, CSS, and JavaScript.  I learned how to use Canvas.
+                                        <a class="btn btn-default" href="../assignment/tilegame.html" role="button">View Details &raquo;</a>
                                     <hr class="d-none d-lg-block mb-0 ml-0" />
                                 </div>
                             </div>
@@ -137,7 +140,9 @@
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-right">
                                     <h4 class="text-white">Video Editing Hobby</h4>
-                                    <p class="mb-0 text-white-50">Practice with video editing on my first sky diving experience!</p><a class="btn btn-default" href="https://www.youtube.com/watch?v=2Ga1UPTMAcU" role="button">View Details &raquo;</a>
+                                    <p class="mb-0 text-white-50">Practice with video editing on my first sky diving experience!</p>
+                                    <a class="btn btn-default" href="https://www.youtube.com/watch?v=2Ga1UPTMAcU" role="button">
+                                    View Details &raquo;</a>
                                     <hr class="d-none d-lg-block mb-0 mr-0" />
                                 </div>
                             </div>
@@ -171,51 +176,11 @@
             </div>
         </section>
 
-
-        <!--Contact-->
-        <section id="contact" class="contact-section bg-black">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Address</h4>
-                                <hr class="my-4" />
-                                <div class="small text-black-50">Redlands, California</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-envelope text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Email</h4>
-                                <hr class="my-4" />
-                                <div class="small text-black-50"><a href="#!">mattfisc@gmail.com</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Phone</h4>
-                                <hr class="my-4" />
-                                <div class="small text-black-50">+1(801)803-8217</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="social d-flex justify-content-center">
-                    <a class="mx-2" href="https://www.instagram.com/just1a6oy/"><i class="fab fa-instagram"></i></a>
-                    <a class="mx-2" href="https://www.linkedin.com/in/matthew-fischer-47231659/"><i class="fab fa-linkedin"></i></a>
-                    <a class="mx-2" href="https://github.com/mattfisc"><i class="fab fa-github"></i></a>
-                </div>
-            </div>
-        </section>
         <!-- Footer-->
-        <footer class="footer bg-black small text-center text-white-50"><div class="container">Copyright © matthewfischer.org 2020</div></footer>
+        <?php
+            require "../includes/footer.php"
+        ?>
+
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>

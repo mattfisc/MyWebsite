@@ -27,31 +27,10 @@
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand" href="home.html">My Website</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="home.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="home.html#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="post.html">Post</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  <?php
+    require "../includes/header.php"
+  ?>
+    
 
   <!-- Page Header -->
   <header class="masthead" style="background-image: url('img/earth_day_night.gif')">
@@ -130,20 +109,11 @@
 
 </section>
 
-
-        <section id="contact" class="contact-section bg-black">
-            <div class="container">
-                
-                <div class="social d-flex justify-content-center">
-                    <a class="mx-2" href="https://www.instagram.com/matthew.tastic/"><i class="fab fa-instagram"></i></a>
-                    <a class="mx-2" href="https://www.linkedin.com/in/matthew-fischer-47231659/"><i class="fab fa-linkedin"></i></a>
-                    <a class="mx-2" href="https://github.com/mattfisc"><i class="fab fa-github"></i></a>
-                </div>
-            </div>
-        </section>
-        <!-- Footer-->
-        <footer class="footer bg-black small text-center text-white-50"><div class="container">Copyright © matthewfischer.org 2020</div></footer>
-
+<!-- Footer-->
+<?php
+  require "../includes/footer.php"
+?>
+  
   <!-- Bootstrap core JavaScript -->
   <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>

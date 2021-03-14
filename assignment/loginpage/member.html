@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Member Page</title>
-    <link rel="stylesheet" href="f.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
@@ -19,16 +19,7 @@
         <div class="content">
 
             <div id="m">
-            <?php
-                    //$fullUrl = "http://$SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-                    $url = "http://localhost:$_SERVER[REQUEST_URI]";
-
-                    // FAILED TO REGISTER
-                    if(strpos($url, "message=success") == true){
-                        echo "<p class='message'>Login successful.<p>";
-        
-                    }
-                ?>
+            
 
             </div>
 
@@ -57,7 +48,7 @@
             
     </div>
 
-    <script src="f.js"></script>
+    <script src="login.js"></script>
     
     <script src = "https://code.jquery.com/jquery-1.11.3.min.js"></script>
 
