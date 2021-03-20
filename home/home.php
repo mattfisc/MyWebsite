@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Matthew Fischer Project Portfolio</title>
-        <link rel="icon" type="image/x-icon" href="../img/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="../css/styles.css" rel="stylesheet" />
-    </head>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Matthew Fischer Project Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="../css/styles.css" rel="stylesheet" />
+</head>
     <body id="page-top">
 
         <!-- Navigation-->
@@ -58,7 +58,7 @@
                             
                     </div>
                 </div>
-                <!-- <img class="img-fluid" src="img/mountain_reflection.jpg" alt="" /> -->
+                <img class="img-fluid" src="../img/mountainslake.jpg" alt="mountain scenery" />
             </div>
         </section>
         <!-- Projects-->
@@ -66,7 +66,7 @@
             <div class="container">
 <!-- Featured Project Row-->
                 <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-                    <div class="col-xl-8 col-lg-7"><img class="img-width mb-3 mb-lg-0" src="img/USflag.jpg" alt="" /></div>
+                    <div class="col-xl-8 col-lg-7"><img class="img-width mb-3 mb-lg-0" src="../img/USflag.jpg" alt="" /></div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
                             <h4>Senior Project</h4>
@@ -78,7 +78,7 @@
                 </div>
 <!-- Project One Row-->
                 <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-                    <div class="col-lg-6"><img class="img-width"  src="img/tictactoe.png" alt="" /></div>
+                    <div class="col-lg-6"><img class="img-width"  src="../img/tictactoe.png" alt="Tic Tac Toe Picture" /></div>
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
@@ -98,7 +98,7 @@
                 </div>
 <!-- Project Two Row-->
                 <div class="row justify-content-center no-gutters">
-                    <div class="col-lg-6"><img class="img-width" src="img/lexi_analizer.jpg" alt="" /></div>
+                    <div class="col-lg-6"><img class="img-width" src="../img/lexi_analizer.jpg" alt="Lexical Project picture" /></div>
                     <div class="col-lg-6 order-lg-first">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
@@ -118,7 +118,7 @@
                 <!-- ROW THREE-->
 <!-- Project THREE Row-->
                 <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-                    <div class="col-lg-6"><img class="img-width" src="img/tilegame_d.png" alt="Tile Game" /></div>
+                    <div class="col-lg-6"><img class="img-width" src="../img/tilegame_d.png" alt="JavaScript Tile Game picture" /></div>
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
@@ -134,7 +134,7 @@
                 </div>
 <!-- Project FOUR Row-->
                 <div class="row justify-content-center no-gutters">
-                    <div class="col-lg-6"><img class="img-fluid" src="img/falling_b_w.png" alt="" /></div>
+                    <div class="col-lg-6"><img class="img-fluid" src="../img/falling_b_w.png" alt="" /></div>
                     <div class="col-lg-6 order-lg-first">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
