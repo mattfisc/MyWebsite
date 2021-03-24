@@ -26,13 +26,13 @@
     
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('img/earth_day_night.gif')">
+  <header class="masthead" style="background-image: url('../img/pexels-pixabay-220201.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="site-heading">
-            <h1>Lessons Learned</h1>
+            <h1 >Lessons Learned</h1>
             <span class="subheading">By Matthew Fischer</span>
           </div>
         </div>

@@ -7,11 +7,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto ">
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="../home/home.php#about">About</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="../home/home.php#projects">Projects</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="../blog/blog.php">Blog</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="../email/contact.php">Contact me</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#certificates">My Certificates</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="../home/home.php#certificates">My Certificates</a></li>
 
             </ul>
         </div>
