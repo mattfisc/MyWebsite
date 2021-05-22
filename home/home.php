@@ -27,13 +27,13 @@
         <header class="masthead">
             <div class="container d-flex h-100 align-items-center">
                 <div class="mx-auto text-center">
-                    <h1 class="mx-auto my-0 text-uppercase text-white-50 ">Software Developer</h1>
+                    <h1 class="mx-auto text-uppercase text-white-50 ">Software Developer</h1>
 
-                    <h2 class="text-white-50 mx-auto mt-2 mb-5">I am a senior about to graduate with my bachelors degree in Computer Science.  I am proficient in Java, Python, and Web development.</h2>
+                    <h2 class="text-white-50 mx-auto mt-2 mb-5">I am a recent graduate with a bachelors in Computer Science.  I am proficient in Java, Python, and front and backend web development.</h2>
 
-                    <h2 class="text-white-50 mx-auto mt-2 mb-5">For more information check  the <a href="#about">about me</a> section.</h2>
+                    <h2 class="text-white-50 mx-auto mt-2 mb-5">Read <a href="#about">about me</a> and my background.</h2>
 
-                    <h2 class="text-white-50 mx-auto mt-2 mb-5">Thanks for Visiting.  Check out <a href="../blog/blog.php">my Blog</a> for weekly updates.</h2>
+                    <h2 class="text-white-50 mx-auto mt-2 mb-5">My <a href="../blog/blog.php">Blog</a> for updates on what I'm learning.</h2>
                     
                 </div>
             </div>
