@@ -14,7 +14,9 @@
   <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
   <!-- Core theme CSS (includes Bootstrap)-->
-  <link href="../css/styles.css" rel="stylesheet" />
+  <link href="../css/clean-blog.min.css" rel="stylesheet" />
+  <link href="../css/clean-blog.css" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
@@ -22,7 +24,7 @@
   <div>
       <!-- Navigation -->
       <?php
-        require "../includes/header.php"
+        require "../includes/header.php";
       ?>
         
   </div>

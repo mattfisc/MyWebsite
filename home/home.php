@@ -33,7 +33,7 @@
 
                     <h2 class="text-white-50 mx-auto mt-2 mb-5">Read <a href="#about">about me</a> and my background.</h2>
 
-                    <h2 class="text-white-50 mx-auto mt-2 mb-5">My <a href="../blog/blog.php">Blog</a> for updates on what I'm learning.</h2>
+                    <h2 class="text-white-50 mx-auto mt-2 mb-5">My <a href="../blog/recent_posts.php">Blog</a> for updates on what I'm learning.</h2>
                     
                 </div>
             </div>
