@@ -17,11 +17,12 @@
 </head>
     <body id="page-top">
 
-        <!-- Navigation-->
-        <?php
-            require "../includes/header.php"
-        ?>
-        
+        <div class="p-t-5">
+            <!-- Navigation-->
+            <?php
+                require "../includes/header.php"
+            ?>
+        </div>
 
         <!-- Masthead-->
         <header class="masthead">
@@ -66,7 +67,7 @@
             <div class="container">
 <!-- Featured Project Row-->
                 <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-                    <div class="col-xl-8 col-lg-7"><img class="img-width mb-3 mb-lg-0" src="../img/USflag.jpg" alt="" /></div>
+                    <div class="col-xl-8 col-lg-7"><img class="img-width mb-3 mb-lg-0" src="../img/nature.jpg" alt="" /></div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
                             <h4>Senior Project</h4>
@@ -134,7 +135,7 @@
                 </div>
 <!-- Project FOUR Row-->
                 <div class="row justify-content-center no-gutters">
-                    <div class="col-lg-6"><img class="img-fluid" src="../img/falling_b_w.png" alt="" /></div>
+                    <div class="col-lg-6"><img class="img-fluid" src="../img/camera.png" alt="" /></div>
                     <div class="col-lg-6 order-lg-first">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
